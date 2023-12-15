@@ -1,0 +1,51 @@
+html{
+    background: #000;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 2em;
+    width: 370px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(200, 200, 200);
+    box-shadow: 0px 2px 24px black;
+    border: 2px solid whitesmoke;
+}
+
+#answer {
+    width: 320px;
+    border-radius: 13px;
+    text-indent: 14px;
+    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+}
+
+.calc {
+    padding: 10px;
+    display: inline-block;
+}
+
+input {
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 3px grey, -5px -5px 3px white;
+    background: rgb(200, 200, 200);
+    outline: none;
+}
+
+input:hover {
+    box-shadow: inset 5px 5px 3px grey, inset -5px -5px 3px white;
+}
